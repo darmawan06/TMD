@@ -1,0 +1,9 @@
+<?php
+	session_start();
+	if(!isset($_SESSION['status'])){
+		$_SESSION['status'];
+		$_SESSION['status_login'];
+		$_SESSION['status_register'];
+		$_SESSION['transaksi_aman'];
+	}
+?>
